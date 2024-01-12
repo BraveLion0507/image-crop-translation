@@ -59,7 +59,8 @@ const modes = {
   default: "Full Image Translation",
   crop: "Only Cropped Image Translation",
 };
-const mode = useSessionStorage("trans_direction", store.mode);
+// const mode = useSessionStorage("mode", "default");
+const mode = useSessionStorage("mode", store.mode);
 
 function handleModeChange(value: string) {
   // Handle the changed value here
