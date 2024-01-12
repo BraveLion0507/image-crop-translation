@@ -4,7 +4,7 @@ import { defineStore } from 'pinia'
 export const useMyStore = defineStore({
     id: 'myStore',
     state: () => ({
-        mode: 'default', // Initial value for mode
+        mode: useSessionStorage('mode', "default"), // Initial value for mode
         cropImage: '',
         visibleArea: {
         }
