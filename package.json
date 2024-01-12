@@ -13,11 +13,12 @@
     "@vueuse/core": "^10.2.1",
     "@vueuse/nuxt": "^10.2.1",
     "nuxt": "^3.6.5",
-    "nuxt-headlessui": "^1.1.4"
-  },
-  "dependencies": {
+    "nuxt-headlessui": "^1.1.4",
     "@pinia/nuxt": "^0.5.1",
     "pinia": "^2.1.7",
     "vue-advanced-cropper": "^2.8.8"
+  },
+  "dependencies": {
+  
   }
 }
