@@ -30,6 +30,7 @@ watch(
 watch(modelValue, (newValue, oldValue) => {
   // Perform actions based on the new selected value (newValue)
   console.log("Selected value:", newValue);
+  emit("update:modelValue", newValue);
 });
 
 const optionsTop = computed(() => rootPos.top.value + rootPos.height.value);
